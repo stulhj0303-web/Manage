@@ -1,0 +1,141 @@
+.manage-card{
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.title-area{
+    display: flex;
+    position: relative;
+}
+
+h3{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.delete-btn{
+    position: absolute;
+    right: 20px;
+    padding: 8px 12px;
+    top: 15px;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    background-color: #e65c5c;
+}
+
+.progress-area{
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.progress-bg{
+    width: 90%;
+    height: 12px;
+    background-color: #e9ecef;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.progress-fill{
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.4s ease-in;
+}
+
+.manage-cont{
+    width: 60%;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.manage-cover{
+    border-radius: 5px;
+    width: 70%;
+}
+
+.manage-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.manager-area{
+    width: 40%;
+    margin-top: 90px;
+    background-color: #fff9db;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.area-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+textarea{
+    width: 73%;
+    position: absolute;
+    bottom: 10px;
+    right: 68px;
+}
+
+.edit-btn ,.save-btn{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #dfd472;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-btn:hover, .save-btn:hover{
+    background-color: #bdb463;
+}
+
+.num{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.add-page-box input{
+    padding: 7px 10px;
+    outline: none;
+    border: 1px solid#ddd;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.add-page-box button{
+    padding: 7px 10px;
+    border: none;
+    background-color: #dfd472;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-page-box button:hover{
+    background-color: #bdb463;
+}
